@@ -1,0 +1,118 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+
+  table td.editable {
+    cursor: pointer;
+  }
+  
+  table td.editable input[type="text"] {
+    width: 100%;
+  }
+
+  .updateButton {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    border-radius: 3px;
+  }
+  
+  
+  .success {
+    color: green;
+  }
+  
+  .removed {
+    background-color: #f2f2f2;
+  }
+  
+  .toBeRemoved {
+    background-color: #f9f9f9;
+  }
+  
+  #tableContainer {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
+  #strategyButtons {
+    margin-top: 20px;
+  }
+  
+  #enableStrategyBtn, #disableStrategyBtn {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  #enableStrategyBtn:hover, #disableStrategyBtn:hover {
+    background-color: #45a049;
+  }
+
+  #updateButton{
+    cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  border-radius: 3px;
+  }
+
+
+  #stockTable_wrapper{
+    margin-top: 20px;
+  }
+  #updateTime{
+    margin-bottom: 20px;
+  }
+
+  
